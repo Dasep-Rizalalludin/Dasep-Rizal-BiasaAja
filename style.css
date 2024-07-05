@@ -1,0 +1,594 @@
+ *,
+ html{
+    margin: 0;
+    padding: 0;
+ }
+ .aa-navbar{
+   display: flex;
+   list-style: none;
+   position: absolute;
+   margin-top: 0;
+   background: rgb(66, 5, 5);
+   width: 100%;
+   height: 10vh;
+   justify-content: center;
+   align-items: center;
+}
+.aa-navbar li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px;
+   margin: 15px; 
+}
+.aa-navbar a:hover{
+   background-color:white;
+   color: rgb(66, 5, 5);
+   border-radius: 10px;
+}
+ .a-navbar{
+   color: white;
+   text-decoration: none;
+   font-weight: 700;
+ }
+ .ab-navbar{
+   background: rgb(66, 5, 5);
+   width: 100%;
+   height: 10vh;
+   position: absolute;
+   margin-top: 0; 
+ }
+ .ab-navbar ul{
+   color: white;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   left: 1cm;
+   top: 0.6cm;
+}
+.about{
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   position: absolute;
+   right: 1cm;
+   margin-top: 0.6cm;
+}
+
+.about li a{
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 18;
+   padding: 10px;
+   margin: 5px;
+   background-color: none;
+}
+
+.about a:hover{
+   background-color:white;
+   color: rgb(66, 5, 5);
+   border-radius: 10px
+}
+.container-content{
+   background: url(senja.jpeg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.footer{
+   color: white;
+   font-size: 23px;
+   letter-spacing: 1px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 85%;
+   background: rgb(66, 5, 5);
+   width: 45%;
+   height: 8vh;
+   border-radius: 100px;
+}
+.container-content a:hover{
+   background-color: rgba(231, 231, 231, 0.405);   
+}
+ .a-content{
+   background-color: rgba(255, 255, 255, 0.249);  
+   color: white;
+   text-decoration:none;
+   font-size: 25px;
+   width: 480px;
+   height: 270px;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+   border-radius: 50px;
+   box-shadow: 10px 10px 5px 0px rgb(5, 5, 5);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+ .img-content{
+    width: 70%;
+    height: 70%;
+}
+.fotoku{
+   background: url(senja.jpeg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction:column;
+   align-items: center;
+   font-size: 20px;
+}
+.fotoku p{
+   color: white;
+   font-size: 50px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+   position: absolute;
+   top: 63%;
+}
+.fotoku p1{
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   top: 75%;
+}
+.fotoku a{
+   color: white;
+   font-size: 20px;
+   background: rgb(66, 5, 5);
+   width: 200px;
+   height: 50px;
+   border-radius: 100px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   text-decoration: none;
+   position: absolute;
+   top:85%;
+}
+.fotoku a:hover{
+   background-color: rgba(200, 180, 180, 0.329);
+   color: rgb(255, 255, 255);
+}
+.dace-content{
+   display: flex;
+   width: 250px;
+   height:250px;
+   position: absolute;
+   top:20%   
+}
+.penulis{
+   background: rgba(243, 236, 226, 0.671);
+   position: absolute;
+   width: 21cm;
+   height: 100vh;
+   left: 7cm;
+}
+.penulis h1{
+   font-size: 40px;
+   text-align: left;
+   color: black;
+   position: absolute;
+   top: 1cm;
+   left: 6cm;
+   right: 3cm;
+}
+.tulis{
+   background: url(piring.jpg);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   height: 100vh;
+}
+.aku-poto{
+   top:1cm;
+   width: 100PX;
+   height: 100px;
+   position: absolute;
+   left: 10cm;
+}
+.tulis k1{
+   color: rgb(252, 0, 0);
+   font-size: 80px;
+   font-family:'Times New Roman', Times, serif;
+   text-align: left;
+   position: absolute;
+   top:25%;
+   left: 10cm;
+}
+.tulis k2{
+   color: black;
+   font-size: 20px;
+   font-family:'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top:27%;
+   left: 11.7cm;
+   right: 10cm;
+}
+.tulis k3{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top: 40%;
+   left: 10cm;
+   right: 10cm;
+}
+.tulis k4{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top: 53%;
+   left: 10cm;
+   right: 10cm;
+}
+.tulis k5{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top: 92%;
+   left: 10cm;
+   right: 10cm;
+}
+.latar{
+   background: white;
+   width: 100%;
+   height: 15vh;
+}
+.logo{
+   background: rgb(66, 5, 5);
+   width: 100%;
+   height: 10vh;
+   position: absolute;
+   margin-top: 0; 
+}
+.logo h4{
+   font-size: 25px;
+   color: white;
+   letter-spacing: 3px;
+   position: absolute;
+   top: 0.5cm;
+   left: 1cm;
+}
+.dw{
+   background-color:white;
+   width: 150px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:rgb(66, 5, 5);
+   text-decoration: none;
+   font-size: 15px;  
+   position: absolute;
+   top:5%;
+   right: 5%;
+   border-radius: 10px;
+   box-shadow: 10px 10px 5px 0px rgb(100, 100, 100);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(138, 136, 136, 0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(151, 138, 138, 0.75);
+}
+.dw:hover{
+   background-color: rgb(0, 221, 255);
+   color: white;
+}
+.cvku{
+   position: absolute;
+   top: 2.3cm;
+   left: 20%;
+   width: 21cm;
+   height: 29.7cm;
+}
+.cv{
+   background-color: rgb(11, 17, 38);
+   padding: 100vh;
+}
+.bio{
+   display: flex;
+   list-style: none;
+   justify-content: space-between;
+   position: absolute;
+   right: 1cm;
+   margin-top: 0.6cm;
+}
+.bio li{
+   display: inline-block;
+   position: relative;
+}
+.bio li a{
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 10px;
+   margin: 15px; 
+}
+.bio li ul.dropdown li a{
+   list-style: none;
+   height: 100%;
+   font-weight: 00;
+  
+  
+}
+.bio li a:hover{
+   background-color:white;
+   color: rgb(66, 5, 5);
+   border-radius: 10px;
+}
+.bio li:hover ul.dropdown{
+   display: block;
+   position: absolute;
+   right: -1.7cm;
+   top: 30px;
+   border-radius: 10px ;
+   width: 180px;
+   
+}
+.bio li:hover ul.dropdown li1 a{
+   position: absolute;
+   top: 0;
+}
+.bio li:hover ul.dropdown li2 a{
+   position: absolute;
+   top: 40px;
+}
+.bio li:hover ul.dropdown li3 a{
+   position: absolute;
+   top: 80px;
+}
+.bio li .dropdown{
+   display: none;
+}
+
+.bio li:hover .dropdown{
+   display: flex;
+   background:rgb(66, 5, 5);
+   height: 150px;
+}
+   
+.background-image{
+   background: rgba(255, 255, 255, 0.756);
+   position: absolute;
+   width: 21cm;
+   height: 270vh;
+   left: 7cm;
+}
+.background-image h1{
+   font-size: 40px;
+   text-align: center;
+   color: black;
+   position: absolute;
+   top:3%;
+   left: 37%;
+}
+.background-image p{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top:7%;
+   left: 11%;
+   right: 11%;
+}
+.background-image p1{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top:18.5%;
+   left: 11%;
+   right: 11%;
+}
+.background-image p2{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top:34%;
+   left: 11%;
+   right: 11%;
+}
+.background-image p3{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top: 48%;
+   left: 11%;
+   right: 11%;
+}
+.background-image p4{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top:66%;
+   left: 11%;
+   right: 11%;
+}
+.background-image p5{
+   color: black;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: justify;
+   position: absolute;
+   top: 79%;
+   left: 11%;
+   right: 11%;
+}
+.biografi{
+   background: url(pantai.jpg);
+   background-size: cover;
+   background-position: left;
+   display: flex;
+   height: 270vh;
+}
+.bingkai{
+   background-color:  white;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+}
+.teks-1{
+   color:rgb(255, 255, 255);
+   font-family: fantasy;
+   letter-spacing: 5px;
+   text-align: center;
+   position: absolute;
+   font-size: 40px;
+   top: 40%;
+   left: 30%;
+   right: 30%;
+}
+.aa{
+   color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   letter-spacing: 5px;
+   text-align: center;
+   position: absolute;
+   font-size: 20px;
+   top: 70%;
+   left: 0%;
+   right: 0;
+}
+.sosial-image{
+   color: white;
+   background-color: rgb(66, 5, 5);
+   height: 100%;
+   width: 100%;
+   font-size: 35;
+   text-align: center;
+   padding-top: 20vh;
+}
+
+.sosial-image img{
+   width: 80vh;
+  
+ 
+}
+
+.hubungi{
+   background-color: rgb(66, 5, 5);
+   height: 100vh;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   text-decoration: none;
+   
+   align-content:space-around;
+   font-size: 25;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hubungi ul h1{
+   position: absolute;
+   top:  130%;
+   left: 37%;
+  
+}
+
+.box-kiri{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 150%;
+   left: 25%;
+   border-radius: 10px;
+   color: black;
+}
+
+.box-tengah{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 150%;
+   left: 45%;
+   border-radius: 10px;
+   color: black;
+}
+
+.box-kanan{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 150%;
+   right: 24%;
+   border-radius: 10px;
+   color: black;
+}
+
+.box-1{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 180%;
+   left: 25%;
+   border-radius: 10px;
+   color: black;
+}
+
+.box-2{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 180%;
+   left: 45%;
+   border-radius: 10px;
+   color: black;
+}
+
+.box-3{
+   width: 150px;
+   height: 160px;
+   background-color: #f0f0f046;
+   position: absolute;
+   top: 180%;
+   right: 24%;
+   border-radius: 10px;
+   color: black;
+}
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover, .box-1:hover, .box-2:hover, .box-3:hover{
+   background-color: rgba(251, 255, 254, 0.735);
+   color: rgb(0, 0, 0);
+}
+
+.hubungi img{
+   margin-top: 30px;
+}
+
+.hubungi p1 h2{
+   margin-top: 10px;
+   font-size: 20;
+   color: black;
+}
+.box-conten{
+   text-decoration: none;
+   list-style: none;
+}
+
